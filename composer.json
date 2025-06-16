@@ -20,7 +20,7 @@
     ],
     "require": {
         "dnadesign/silverstripe-elemental": "^5 || ^6",
-        "dynamic/silverstripe-elemental-baseobject": "^5 || ^6",
+        "dynamic/silverstripe-elemental-baseobject": "^5 || ^6 || dev-silverstripe6",
         "jonom/focuspoint": "^5.0 || ^6"
     },
     "require-dev": {
@@ -34,6 +34,12 @@
             "Dynamic\\Elements\\Features\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+                {
+            "type": "github",
+            "url": "git@github.com:muskie9/silverstripe-elemental-baseobject"
+        }
+    ],
     "config": {
         "allow-plugins": {
             "composer/installers": true,
